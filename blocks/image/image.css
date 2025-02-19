@@ -1,0 +1,17 @@
+main .image-container .image img {
+	width: 300px;
+}
+
+main .image-container .image.rounded img {
+	border-radius: 20px;
+}
+
+main .image-container .image.float-left {
+	float: left;
+	padding: 2em 3em 3em 0;
+}
+
+main .image-container .image.float-right {
+	float: right;
+	padding: 2em 0 3em 3em;
+}
