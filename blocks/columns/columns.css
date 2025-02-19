@@ -11,14 +11,6 @@
   order: 1;
 }
 
-.columns.center > div > div {
-  text-align: center;
-}
-
-.columns.rounded .columns-img-col img {
-  border-radius: 20px;
-}
-
 .columns > div > .columns-img-col {
   order: 0;
 }
@@ -27,11 +19,11 @@
   display: block;
 }
 
-@media (min-width: 900px) {
+@media (width >= 900px) {
   .columns > div {
     align-items: center;
     flex-direction: unset;
-    gap: 32px;
+    gap: 24px;
   }
 
   .columns > div > div {
