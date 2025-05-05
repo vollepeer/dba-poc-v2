@@ -25,7 +25,6 @@
   background-color: var(--light-color);
 }
 
-.accordion details summary:focus,
 .accordion details summary:hover {
   background-color: #E8F7FD;
 }
